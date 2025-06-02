@@ -4,13 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx json-server --watch db.json --port $PORT"
+    "start": "json-server --watch db.json --port $PORT"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "json-server": "github:typicode/json-server"
+    "json-server": "^0.17.4"
   }
 }
